@@ -1,0 +1,857 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.center{
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1280px;
+}
+header{
+	width: 100%;
+}
+nav{
+	width: 100%;
+    height: auto;
+	text-align: center;
+    top: 0px;
+	position: fixed;
+	background-color: rgba(0,0,0,.0);
+	display: inline-block;
+}
+nav .not ul{
+	font-size: 19px;
+	margin-top: 23px;
+	margin-right: 5px;
+	font-weight: normal;
+	list-style-type: none;
+	display: inline-block;
+}
+nav .not li{
+	padding: 0 20px;
+	display: inline-block;
+}
+nav .not li a{
+	color: #fff;
+	text-decoration: none;
+}
+nav .not ul li a:hover{
+	color:#3f008a;
+}
+nav .mobile{
+	cursor: pointer;
+	display: none;
+	float: left;
+	margin-right: 25px;
+	margin-top: 30px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../midia/menu-mobile.png');
+	background-size: 100% 100%;
+	z-index: 1;
+}
+nav .mobile ul{
+	display: none;
+	background-color:rgba(0,0,0,.8);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 94px;
+	list-style-type: none;
+	text-align: center;
+	font-weight: 30px
+}
+nav .mobile ul li{
+	padding:8px 0;
+	transition: 0.4s
+}
+nav .mobile ul li:hover{
+	background-color: #2d0063;
+}
+nav .mobile ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.midia_contato{
+	width: 100%;
+	height: 50px;
+	margin-top: 70px;
+	display: inline-block;
+}
+.midia{
+	width: 10%;
+	height: 50px;
+	float: left;
+}
+.midia img{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.git{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #fff;
+	float: left;
+}
+.contatoPhone{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #fff;
+	margin: auto;
+	display: none;
+}
+.linkedin{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #fff;
+	float: right;
+}
+.contato{
+	width: 33%;
+	height: 50px;
+	float: right;
+}
+.contato img{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.telephone{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #fff;
+	float: left;
+}
+.numero{
+	text-align: center;
+	width:300px;
+	height: 50px;
+	float: right;
+}
+.numero p{
+	font-size: 40px;
+	color:#fff ;
+	font-weight: 100px;
+}
+.content{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 110vh;
+	background-image: url(../midia/imgHeader.jpg);
+}
+.apresentacao{
+	width: 500px;
+	height: 300px;
+	margin-left: 10%;
+	text-align: center;
+	margin:6% auto;
+}
+.apresentacao h1{
+	color: #fff;
+	font-size: 90px;
+	padding: 0 20px;
+	font-family: 'Train One', cursive;
+}
+input, textarea {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.apresentacao h3{
+	color: #fff;
+	font-size: 40px;
+	padding: 0 20px;
+	margin-top:10px ;
+	margin-bottom:40px ;
+}
+.apresentacao input[type=text]{
+	font-size: 70px;
+	width: 70%;
+	font-family: lato;
+	color: #fff;
+	text-align: center;
+	background: 0  0;
+	border: 0;
+	text-decoration: none;
+}
+.apresentacao input[type=text]:focus{
+    outline: 0;
+}
+section.quemSou{
+	background-color: black;
+	height:100vh;
+	width: 100%;
+	display: inline-block;
+}
+.arrow{
+	width: 70px;
+	height: 70px;
+	background-color: #fff;
+	text-align: center;
+	margin: -30px auto;
+	border-radius: 35px;
+}
+.arrow img{
+	width: 55px;
+	height: 70px;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+}
+section.quemSou{
+	display: inline-block;
+	width: 100%;
+	height: 90vh;
+}
+.description{
+	width: 100%;
+	margin-top: 130px;
+	display: flex;
+	
+}
+.citacao{
+	width:35% ;
+	height: 300px;
+}
+.citacao h4{
+	color: #3f008a;
+	padding-left: 25px;
+}
+.citacao p{
+	padding-right: 30px;
+	padding-left: 15px;
+	padding-top: 30px;
+	color: #fff;
+}
+.citacao span{
+	color:#3f008a;
+	font-size: 15px;
+}
+.altor{
+	padding-left: 65%;
+}
+.ocupacao p{
+	margin-top: -25px;
+}
+.foto{
+	width:300px;
+	height: 300px;
+	border-radius: 150;
+	background-image: url('../midia/papitoPerfil.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.sobre{
+	width:35% ;
+	height: 300px;
+}
+.sobre h1{
+	color: #3f008a;
+	font-size: 54px;
+}
+.sobre p{
+	margin-top: 8px;
+	color: #fff;
+}
+.skills h4{
+	color: #3f008a;
+	text-align: center;
+	margin-top: 90px;
+}
+section.curriculo{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,.9);
+	display: inline-block;
+}
+.slide{
+	width: 100%;
+	height: 50%;
+	margin-top: -120px;
+}
+.boxSlide{
+    width: 115px;
+    height: 115px;
+    margin: 150px auto;
+   
+	margin-bottom: -5px;
+}
+.mySlides{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+.prev{
+    cursor: pointer;
+    float: left;
+    width: auto;
+    margin-top: -100px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: 2px solid black;
+    background-color: rebeccapurple;
+}
+.next{
+    cursor: pointer;
+    float: right;
+    width: auto;
+	margin-top: -100px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: 2px solid black;
+    background-color: rebeccapurple;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+	text-align: center;
+}
+.mySlides img{
+    width: 100%;
+    height: 100%;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+	margin-top: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+	position: relative;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: rebeccapurple;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.rowCurriculo{
+	text-align: center;
+}
+[class*=btn]:hover, [class*=btn]:hover ~ [class*=btn] {
+    background-color:black;
+}
+button{
+	margin: 15% auto;
+	width: 55%;
+	color: rgb(173, 65, 65);
+	height: 55px;
+	background-color: #3f008a;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+	border-radius: 40px;
+}
+button a{
+	text-decoration: none;
+	color: #fff;
+}
+section.porQue{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	display: inline-block;
+}
+.porQue h1{
+	text-align: left;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #fff;
+}
+section.porQue h1 .borda{
+	width: 120px;
+	height: 4px;
+	background-color: #3f008a;
+	position: absolute;
+	transition: 0.5s;
+}
+section h1:hover > .borda{width: 400px;}
+.porQue p{
+	color: #ccc;
+	margin-top: 20px;
+}
+section.portfolio{
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	background-color: black;
+}
+.traco{
+	width: 100%;
+	height: 4px;
+	background-color: #3f008a;
+}
+.portfolio h1{
+	text-align: center;
+	font-size: 30px;
+	color:#fff ;
+	margin-top: 50px;
+}
+.column{
+	margin-top: 70px;
+	width: 33.3%;
+	height: 300px;
+	float: left;
+}
+.boxPortfolio{
+	text-align: center;
+}
+[class*=btn_por]:hover, [class*=btn_por]:hover ~ [class*=btn_por] {
+    background-color:#b89fd6;
+	transition: 0.4s;
+}
+.button{
+	margin: 50px auto;
+	width: 70%;
+	color: #fff;
+	height: 30px;
+	background-color: #3f008a;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+	border-radius: 40px;
+}
+.button a{
+	text-decoration: none;
+	color: #fff;
+}
+.boxMais{
+	width: 100%;
+	text-align: center;
+}
+.button-btn{
+	display: inline-block;
+	margin: 50px auto;
+	width: 70%;
+	color: #fff;
+	height: 50px;
+	padding-top: 10px;
+	background-color: #3f008a;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+	border-radius: 40px;
+}
+.button-btn a{
+	text-decoration: none;
+	color: #fff;
+}
+section.contatoFinal{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	background-color: black;
+}
+.contatoFinal h2{
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	margin-top:50px;
+	margin-bottom:150px;
+}
+.numeroContato{
+	width: 30%;
+	height: 50px;
+	margin: 0 auto;
+}
+.numeroContato img{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.imgContato{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #fff;
+	float: left;
+}
+.number{
+	text-align: center;
+	width:250px;
+	height: 50px;
+	float: right;
+}
+.number p{
+	font-size: 30px;
+	color:#fff ;
+	font-weight: 50px;
+}
+.gmailContato{
+	width: 35.6%;
+	height: 50px;
+	margin: 55px auto;
+	margin-top: 20px;
+}
+.gmailContato img{
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+.imgGmail{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.gmail{
+	text-align: center;
+	width:350px;
+	height: 50px;
+	float: right;
+
+}
+.gmail p{
+	font-size: 25px;
+	color:#fff ;
+	font-weight: 30px;
+}
+form{
+	width: 100%;
+	margin: 30px auto;
+	max-width: 600px;
+}
+form h1{
+	color: #fff;
+	text-align: center;
+	margin-top:35px ;
+	margin-bottom:25px ;
+}
+.wrapper{
+	float: left;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+.w100{
+	width: 100%;
+}
+.w50{
+	width: 50%;
+}
+form input[type=text]{
+	width: 100%;
+	height: 55px;
+	line-height: 35px;
+	padding-left: 9px;
+	margin-top: 8px;
+	border-radius: 30px;
+	border: 5px solid #3f008a;
+}
+form input[type=text]:focus{
+    outline: 0;
+}
+form input[type=email]{
+	width: 100%;
+	height: 55px;
+	line-height: 35px;
+	padding-left: 9px;
+	margin-top: 8px;
+	border-radius: 30px;
+	border: 5px solid #3f008a;
+}
+form input[type=email]:focus{
+    outline: 0;
+}
+form textarea{
+	width: 100%;
+	max-width: 575px;
+	margin: 8px 0px 0px;
+	padding-left: 12px;
+	margin-top: 8px;
+	border-radius: 30px;
+	border: 5px solid #3f008a;
+}form textarea:focus{
+    outline: 0;
+}
+[class*=btn-2]:hover, [class*=btn-2]:hover ~ [class*=btn-2] {
+    background-color:#b89fd6;
+	transition: 0.4s;
+}
+form input[type=submit]{
+	margin:12px auto;
+	width: 50%;
+	color:#fff;
+	height: 55px;
+	background-color: #3f008a;
+	font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+	border-radius: 40px;
+}
+@media screen and (max-width:1122px){
+	.contato{
+		width: 44%;
+	}
+	.midia{
+		width: 13%;
+	}
+}
+@media screen and (max-width:1199px){
+
+	section.quemSou{
+	height: 1000px;
+	}
+	.description{
+		display: block;
+	}
+	.citacao{
+		width:100% ;
+		height:auto;
+	}
+	.foto{
+		width:30% ;
+		margin: 10px auto;
+	}
+	.sobre{
+		width:100% ;
+		height: auto;
+	}
+	.gmailContato{
+		width: 40%;
+	}
+}
+@media screen and (max-width:1060px){
+	.numeroContato{
+		width: 38%;
+	}
+	.gmailContato{
+		width: 49.5%;
+	}
+}
+@media screen and (max-width:861px){
+	nav .not{
+		display:none;
+	}
+	nav .mobile{
+		display:block;
+	}
+	/*nav .mobile ul{
+		display: block;
+	}*/
+	.apresentacao{
+		width: 94%;
+		height: auto;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.apresentacao h1{
+		font-size: 90px;
+	}
+	.box_icon{
+		margin-bottom: 110px;
+	}
+	section.contatoFinal{
+		height: calc(auto + 50px);
+	}
+	.contatoFinal h2{
+		margin-bottom:80px;
+	}
+	.contato{
+		display: none;
+	}
+	.midia{
+		float: none;
+		text-align: center;
+		width: 40%;
+		margin:-30px auto;	
+	}
+	.contatoPhone{
+		display: block;
+	}
+	.foto{
+		width:37% ;
+	}
+	section.porQue{
+		height: auto;
+	}
+	.porQue h1{
+		font-size: 20px;
+	}
+	section.porQue h1 .borda{
+		width: 70px;
+	}
+	section h1:hover > .borda{width: 250px;}
+	.numeroContato{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+	}
+	.imgContato{
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+	}
+	.number{
+		width:100%;
+		height: 50px;
+		float: none;
+		margin: 0 auto;
+	}
+	.gmailContato{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+	}
+	.imgGmail{
+		width: 100%;
+		float: none;
+	}
+	.gmail{
+		width:100%;
+		height: 50px;
+		float: none;
+		margin: 0 auto;
+	}
+	section.portfolio{
+		height: auto;
+	}
+	.column{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	form input[type=submit]{
+		width: 100%;
+	}
+}
+@media screen and (max-width:700px){
+	.apresentacao h1{
+		font-size: 60px;
+	}
+	.apresentacao h3{
+		font-size: 30px;
+	}
+	.apresentacao input[type=text]{
+		font-size: 40px;
+		width: 100%;
+	}
+	.foto{
+		width:40% ;
+	}
+	.wrapper{
+		float: none;
+	}
+	.w50{
+		width: 100%;
+	}
+	form textarea{
+		max-width: 100%;
+	}
+}
+@media screen and (max-width:560px){
+	.foto{
+		width:50%;
+		height: 230px;
+	}
+	section.quemSou{
+		height: auto;
+	}
+	section.porQue h1 .borda{
+		width: 250px;
+		height: 4px;
+		background-color: #3f008a;
+	}
+	button{
+		margin: 45% auto;
+	}
+	.button{
+		width: 100%;
+	}
+}
+@media screen and (max-width:500px){
+	nav .mobile{
+	cursor: pointer;
+	display: block;
+	float: none;
+	margin-right: 0;
+	}
+	.apresentacao h1{
+		font-size: 40px;
+		margin-top: 40px;
+	}
+	.apresentacao h3{
+		font-size: 24px;
+		margin-top: 40px;
+	}
+	.apresentacao input[type=text]{
+		font-size: 40px;
+		width: 100%;
+	}
+	.midia{
+		text-align: center;
+		width: 65%;
+		margin:-30px auto;	
+	}
+}
+@media screen and (max-width:370px){
+	.gmail p{
+		font-size: 18px;
+		
+	}
+}
